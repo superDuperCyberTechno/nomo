@@ -10,8 +10,8 @@ endif
 
 let g:colors_name = 'nomo'
 
-let s:white  = ['#f7f7f7', 15]
-let s:black  = ['#0e1111', 16]
+let s:white  = ['#e2e2e2', 15]
+let s:black  = ['#222222', 16]
 let s:gray  = ['#606060', 16]
 let s:blue  = ['#20bbfc', 67]
 
@@ -49,6 +49,7 @@ function! s:hi(...)
     exec join(cmd, ' ')
 endfunction
 
+
 "
 " --- Vim interface ------------------------------------------------------------
 "
@@ -67,17 +68,36 @@ call s:hi('NonText', s:black, s:black)
 " call s:hi('FoldColumn', s:dgray)
 call s:hi('Folded')
 
+call s:hi('Title')
+call s:hi('TabLine', s:black, s:white)
+call s:hi('TabLineFill', s:black, s:white)
+call s:hi('TabLineSel')
+
+
+" call s:hi('StatusLine')
+call s:hi('StatusLine', s:black, s:white)
+call s:hi('StatusLineNC')
+
 " Line numbers gutter.
-call s:hi('LineNr, s:gray')
+call s:hi('LineNr', s:gray)
 
 " Popup menu.
 call s:hi('Pmenu', s:black, s:white)
 call s:hi('PmenuSel')
 
-" Signs.
-call s:hi('SignColumn', s:blue)
+call s:hi('ALEErrorSign')
+call s:hi('ALEWarningSign')
 
-" --- Programming languages ----------------------------------------------------
+" Notes.
+" call s:hi('Todo', s:black, s:yellow, s:bold)
+
+" Signs.
+call s:hi('SignColumn')
+call s:hi("SignifySignAdd")
+call s:hi("SignifySignChange")
+call s:hi("SignifySignChangeDelete")
+call s:hi("SignifySignDelete")
+
 call s:hi('Statement')
 call s:hi('PreProc')
 call s:hi('String')
@@ -87,4 +107,4 @@ call s:hi('Type')
 call s:hi('Function')
 call s:hi('Identifier')
 call s:hi('Special')
-call s:hi('MatchParen', s:black, s:white)
+call s:hi('MatchParen', s:blue)
