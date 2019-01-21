@@ -49,7 +49,6 @@ function! s:hi(...)
     exec join(cmd, ' ')
 endfunction
 
-
 "
 " --- Vim interface ------------------------------------------------------------
 "
@@ -78,7 +77,6 @@ call s:hi('PmenuSel')
 " Signs.
 call s:hi('SignColumn', s:blue)
 
-"
 " --- Programming languages ----------------------------------------------------
 call s:hi('Statement')
 call s:hi('PreProc')
