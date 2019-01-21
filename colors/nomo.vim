@@ -75,8 +75,8 @@ call s:hi('TabLineSel')
 
 
 " call s:hi('StatusLine')
-call s:hi('StatusLine', s:black, s:white)
-call s:hi('StatusLineNC', s:black, s:white)
+"call s:hi('StatusLine', s:black, s:white)
+"call s:hi('StatusLineNC', s:black, s:white)
 
 " Line numbers gutter.
 call s:hi('LineNr', s:gray)
