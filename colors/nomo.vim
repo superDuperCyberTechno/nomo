@@ -81,6 +81,9 @@ call s:hi('StatusLineNC', s:black, s:white)
 " Line numbers gutter.
 call s:hi('LineNr', s:gray)
 
+" WildMenu.
+call s:hi('WildMenu')
+
 " Popup menu.
 call s:hi('Pmenu', s:black, s:white)
 call s:hi('PmenuSel')
