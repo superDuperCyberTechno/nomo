@@ -68,7 +68,7 @@ call s:hi('NonText', s:black, s:black)
 " call s:hi('FoldColumn', s:dgray)
 call s:hi('Folded')
 
-call s:hi('Title', s:gray, s:none)
+"call s:hi('Title', s:gray, s:none)
 call s:hi('TabLine', s:black, s:white)
 call s:hi('TabLineFill', s:black, s:white)
 call s:hi('TabLineSel')
