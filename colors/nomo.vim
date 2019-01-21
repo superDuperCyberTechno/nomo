@@ -12,7 +12,7 @@ let g:colors_name = 'nomo'
 
 let s:white  = ['#f7f7f7', 15]
 let s:black  = ['#0e1111', 16]
-let s:gray  = ['#878787', 16]
+let s:gray  = ['#606060', 16]
 let s:blue  = ['#20bbfc', 67]
 
 let s:default_fg = s:white
@@ -59,7 +59,7 @@ call s:hi('Cursor', s:black, s:white)
 call s:hi('ColorColumn')
 call s:hi('Search', s:black, s:white)
 call s:hi('Visual', s:black, s:white)
-" call s:hi('ErrorMsg', s:blue, s:red)
+call s:hi('ErrorMsg', s:blue)
 
 " Tildes at the bottom of a buffer, etc.
 call s:hi('NonText', s:black, s:black)
@@ -69,30 +69,17 @@ call s:hi('NonText', s:black, s:black)
 call s:hi('Folded')
 
 " Line numbers gutter.
-call s:hi('LineNr')
-
-" File browsers.
-" call s:hi('Directory', s:white, s:default_bg, s:bold)
-
-" Help.
-" call s:hi('helpSpecial')
-" call s:hi('helpHyperTextJump', s:sblue, s:default_bg, s:underline)
-" call s:hi('helpNote')
+call s:hi('LineNr, s:gray')
 
 " Popup menu.
 call s:hi('Pmenu', s:black, s:white)
 call s:hi('PmenuSel')
 
-" Notes.
-" call s:hi('Todo', s:black, s:yellow, s:bold)
-
 " Signs.
-call s:hi('SignColumn')
+call s:hi('SignColumn', s:blue)
 
 "
 " --- Programming languages ----------------------------------------------------
-"
-
 call s:hi('Statement')
 call s:hi('PreProc')
 call s:hi('String')
