@@ -55,20 +55,20 @@ endfunction
 
 call s:hi('Normal')
 call s:hi('Cursor', s:black, s:white)
-call s:hi('ColorColumn');
+call s:hi('ColorColumn')
 call s:hi('Search', s:black, s:white)
 call s:hi('Visual', s:black, s:white)
-call s:hi('ErrorMsg', s:blue, s:red)
+" call s:hi('ErrorMsg', s:blue, s:red)
 
 " Tildes at the bottom of a buffer, etc.
 call s:hi('NonText', s:black, s:black)
 
 " Folding.
-call s:hi('FoldColumn', s:dgray)
+" call s:hi('FoldColumn', s:dgray)
 call s:hi('Folded')
 
 " Line numbers gutter.
-call s:hi('LineNr');
+call s:hi('LineNr')
 
 " File browsers.
 " call s:hi('Directory', s:white, s:default_bg, s:bold)
@@ -80,7 +80,7 @@ call s:hi('LineNr');
 
 " Popup menu.
 call s:hi('Pmenu', s:black, s:white)
-call s:hi('PmenuSel');
+call s:hi('PmenuSel')
 
 " Notes.
 " call s:hi('Todo', s:black, s:yellow, s:bold)
