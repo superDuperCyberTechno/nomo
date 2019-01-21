@@ -12,6 +12,7 @@ let g:colors_name = 'nomo'
 
 let s:white  = ['#f7f7f7', 15]
 let s:black  = ['#0e1111', 16]
+let s:gray  = ['#878787', 16]
 let s:blue  = ['#20bbfc', 67]
 
 let s:default_fg = s:white
@@ -92,13 +93,13 @@ call s:hi('SignColumn')
 " --- Programming languages ----------------------------------------------------
 "
 
-" call s:hi('Statement', s:white, s:default_bg, s:bold)
-" call s:hi('PreProc', s:white, s:default_bg, s:bold)
-" call s:hi('String', s:sblue)
-" call s:hi('Comment', s:cgray, s:default_bg, s:comment_attr)
-" call s:hi('Constant')
-" call s:hi('Type', s:white, s:default_bg, s:bold)
-" call s:hi('Function', s:white)
-" call s:hi('Identifier')
-" call s:hi('Special')
-" call s:hi('MatchParen', s:black, s:lgray)
+call s:hi('Statement')
+call s:hi('PreProc')
+call s:hi('String')
+call s:hi('Comment', s:gray)
+call s:hi('Constant')
+call s:hi('Type')
+call s:hi('Function')
+call s:hi('Identifier')
+call s:hi('Special')
+call s:hi('MatchParen', s:black, s:white)
