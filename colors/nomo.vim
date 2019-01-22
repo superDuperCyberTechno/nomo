@@ -21,7 +21,7 @@ elseif g:nomo_tint == 'yellow'
 endif
 
 let s:dark  = ['#222222', 234]
-let s:semi  = ['#555555', 240]
+let s:semi  = ['#525252', 240]
 
 let s:default_fg = s:lite
 let s:default_bg = s:dark
