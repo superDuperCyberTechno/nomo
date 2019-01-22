@@ -9,7 +9,7 @@ endif
 let g:colors_name = 'nomo'
 
 "let s:lite  = ['#e2e2e2', 254]
-let s:lite  = ['#25931c', 254]
+let s:lite  = ['#2eb223', 254]
 let s:dark  = ['#222222', 234]
 let s:semi  = ['#555555', 240]
 
