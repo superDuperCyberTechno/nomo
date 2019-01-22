@@ -8,14 +8,12 @@ endif
 
 let g:colors_name = 'nomo'
 
-let s:lite  = ['#e2e2e2', 15]
-let s:dark  = ['#222222', 16]
-let s:semi  = ['#606060', 16]
+let s:lite  = ['#e2e2e2', 254]
+let s:dark  = ['#222222', 234]
+let s:semi  = ['#606060', 240]
 
 let s:default_fg = s:lite
 let s:default_bg = s:dark
-
-let s:none = 'NONE'
 
 let s:default_lst = []
 let s:default_str = ''
