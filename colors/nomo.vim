@@ -15,33 +15,21 @@ let s:semi  = ['#606060', 16]
 let s:default_fg = s:lite
 let s:default_bg = s:dark
 
-let s:none = 'NONE'
-
-let s:default_lst = []
-let s:default_str = ''
-
 function! s:hi(...)
     let group = a:1
     let fg    = get(a:, 2, s:default_fg)
     let bg    = get(a:, 3, s:default_bg)
-    let attr  = get(a:, 4, s:none)
 
     let cmd = ['hi', group]
 
-    if fg != s:default_lst
-        call add(cmd, 'guifg='.fg[0])
-        call add(cmd, 'ctermfg='.fg[1])
-    endif
+    call add(cmd, 'guifg='.fg[0])
+    call add(cmd, 'ctermfg='.fg[1])
 
-    if bg != s:default_lst
-        call add(cmd, 'guibg='.bg[0])
-        call add(cmd, 'ctermbg='.bg[1])
-    endif
+    call add(cmd, 'guibg='.bg[0])
+    call add(cmd, 'ctermbg='.bg[1])
 
-    if attr != s:default_str
-        call add(cmd, 'gui='.attr)
-        call add(cmd, 'cterm='.attr)
-    endif
+    call add(cmd, 'gui=NONE'
+    call add(cmd, 'cterm=NONE')
 
     exec join(cmd, ' ')
 endfunction
