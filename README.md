@@ -1,11 +1,14 @@
 ## nomo
 
-It's a simple colorscheme for Vim. It uses three colors: The light one, the darker one and the darkest one. No' mo'.
+It's a no-nonsense colorscheme for Vim. It uses three colors: The light one, the darker one and the darkest one. No' mo'.
 
-It has 3 tints: 
+It has 5 tints: 
 
-* white (default): `let g:nomo_tint='white'`
-* green: `let g:nomo_tint='green'`
-* red: `let g:nomo_tint='red'`
+* white (default)
+* green
+* red
+* blue
+* yellow 
 
-More may come.
+IE: Add the following to your .vimrc to change the tint to green:
+`let g:nomo_tint='green'`
