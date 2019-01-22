@@ -1,5 +1,5 @@
 # nomo.vim
-A no-nonsense colorscheme for Vim. 
+A dark, no-nonsense colorscheme for Vim.
 
 It uses three colors: The light one, the darker one and the darkest one. No' mo'.
 
