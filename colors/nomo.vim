@@ -14,6 +14,10 @@ elseif g:nomo_tint == 'green'
   let s:lite  = ['#85f762', 254]
 elseif g:nomo_tint == 'red'
   let s:lite  = ['#d65151', 254]
+elseif g:nomo_tint == 'blue'
+  let s:lite  = ['#70a6ff', 254]
+elseif g:nomo_tint == 'yellow'
+  let s:lite  = ['#ffff70', 254]
 endif
 
 let s:dark  = ['#222222', 234]
