@@ -8,8 +8,9 @@ endif
 
 let g:colors_name = 'nomo'
 
-let s:lite  = ['#e2e2e2', 254]
-if g:nomo_tint == 'green'
+!exists('g:nomo_tint') || g:nomo_tint == 'white'
+  let s:lite  = ['#e2e2e2', 254]
+elseif g:nomo_tint == 'green'
   let s:lite  = ['#85f762', 254]
 elseif g:nomo_tint == 'red'
   let s:lite  = ['#d65151', 254]
