@@ -41,7 +41,6 @@ function! s:hi(...)
     exec join(cmd, ' ')
 endfunction
 
-
 " --- STYLING ------------------------------------------------------------
 call s:hi('Normal')
 call s:hi('Cursor', s:dark, s:lite)
@@ -112,3 +111,18 @@ call s:hi('Function')
 call s:hi('Identifier')
 call s:hi('Special')
 call s:hi('MatchParen', s:semi)
+
+let g:fzf_colors =
+\ { 'fg':      ['fg', 'Normal'],
+  \ 'bg':      ['bg', 'Normal'],
+  \ 'hl':      ['fg', 'Comment'],
+  \ 'fg+':     ['fg', 'CursorLine', 'CursorColumn', 'Normal'],
+  \ 'bg+':     ['bg', 'CursorLine', 'CursorColumn'],
+  \ 'hl+':     ['fg', 'Statement'],
+  \ 'info':    ['fg', 'PreProc'],
+  \ 'border':  ['fg', 'Ignore'],
+  \ 'prompt':  ['fg', 'Conditional'],
+  \ 'pointer': ['fg', 'Exception'],
+  \ 'marker':  ['fg', 'Keyword'],
+  \ 'spinner': ['fg', 'Label'],
+  \ 'header':  ['fg', 'Comment'] }
