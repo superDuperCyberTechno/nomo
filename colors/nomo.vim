@@ -62,6 +62,11 @@ call s:hi('NonText', s:black, s:black)
 call s:hi('Folded')
 call s:hi('Search', s:white, s:gray)
 call s:hi('SearchCurrent', s:black, s:white)
+call s:hi('CursorLineNr', s:black, s:white)
+
+call s:hi('fzf1')
+call s:hi('fzf2')
+call s:hi('fzf3')
 
 call s:hi('Title', s:gray)
 call s:hi('TabLine', s:gray)
