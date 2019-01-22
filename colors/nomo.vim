@@ -59,18 +59,16 @@ call s:hi('Cursor', s:black, s:white)
 call s:hi('ColorColumn')
 call s:hi('Search', s:black, s:white)
 call s:hi('Visual', s:black, s:white)
-call s:hi('ErrorMsg', s:blue)
+call s:hi('ErrorMsg')
 
 " Tildes at the bottom of a buffer, etc.
 call s:hi('NonText', s:black, s:black)
 
-" Folding.
-" call s:hi('FoldColumn', s:dgray)
 call s:hi('Folded')
 
-"call s:hi('Title', s:gray, s:none)
-call s:hi('TabLine', s:black, s:white)
-call s:hi('TabLineFill', s:black, s:white)
+call s:hi('Title', s:gray, s:none)
+call s:hi('TabLine', s:gray)
+call s:hi('TabLineFill')
 call s:hi('TabLineSel')
 
 
@@ -90,6 +88,8 @@ call s:hi('PmenuSel')
 
 call s:hi('ALEErrorSign')
 call s:hi('ALEWarningSign')
+call s:hi('SpecialKey', s:gray)
+call s:hi('Directory')
 
 " Notes.
 " call s:hi('Todo', s:black, s:yellow, s:bold)
