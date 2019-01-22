@@ -1,3 +1,3 @@
 ## nomo
 
-It's dark gray, light gray and a little blue. No' mo'.
+It's a simple colorscheme for Vim. It uses three colors: The whiteish one, the grayish one, and the blackish one. No' mo'.
