@@ -64,6 +64,11 @@ call s:hi('Search', s:white, s:gray)
 call s:hi('SearchCurrent', s:black, s:white)
 call s:hi('CursorLineNr', s:black, s:white)
 
+call s:hi('Sneak', s:black, s:white)
+call s:hi('SneakScope', s:black, s:white)
+call s:hi('SneakLabel', s:black, s:white)
+call s:hi('SneakLabelMask', s:black, s:black)
+
 call s:hi('fzf1')
 call s:hi('fzf2')
 call s:hi('fzf3')
