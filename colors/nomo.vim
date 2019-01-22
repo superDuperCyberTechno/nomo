@@ -50,39 +50,28 @@ function! s:hi(...)
 endfunction
 
 
-"
-" --- Vim interface ------------------------------------------------------------
-"
-
+" --- STYLING ------------------------------------------------------------
 call s:hi('Normal')
 call s:hi('Cursor', s:black, s:white)
 call s:hi('ColorColumn')
 call s:hi('Search', s:black, s:white)
 call s:hi('Visual', s:black, s:white)
 call s:hi('ErrorMsg')
-
-" Tildes at the bottom of a buffer, etc.
 call s:hi('NonText', s:black, s:black)
-
 call s:hi('Folded')
 
-call s:hi('Title', s:gray, s:none)
+call s:hi('Title', s:gray)
 call s:hi('TabLine', s:gray)
 call s:hi('TabLineFill')
 call s:hi('TabLineSel')
 
+call s:hi('StatusLine')
+call s:hi('StatusLineNC', s:gray)
+call s:hi('VertSplit', s:gray)
 
-" call s:hi('StatusLine')
-"call s:hi('StatusLine', s:black, s:white)
-"call s:hi('StatusLineNC', s:black, s:white)
-
-" Line numbers gutter.
 call s:hi('LineNr', s:gray)
-
-" WildMenu.
 call s:hi('WildMenu')
 
-" Popup menu.
 call s:hi('Pmenu', s:black, s:white)
 call s:hi('PmenuSel')
 
@@ -91,10 +80,6 @@ call s:hi('ALEWarningSign')
 call s:hi('SpecialKey', s:gray)
 call s:hi('Directory')
 
-" Notes.
-" call s:hi('Todo', s:black, s:yellow, s:bold)
-
-" Signs.
 call s:hi('SignColumn')
 call s:hi("SignifySignAdd")
 call s:hi("SignifySignChange")
