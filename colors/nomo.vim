@@ -94,6 +94,8 @@ call s:hi('PmenuSel')
 
 call s:hi('ALEErrorSign')
 call s:hi('ALEWarningSign')
+call s:hi('SpellBad')
+call s:hi('SpellCap')
 call s:hi('SpecialKey', s:gray)
 call s:hi('Directory')
 
