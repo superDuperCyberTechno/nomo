@@ -73,7 +73,7 @@ call s:hi('StatusLineNC', s:gray)
 call s:hi('VertSplit', s:gray)
 
 call s:hi('LineNr', s:gray)
-call s:hi('WildMenu')
+call s:hi('WildMenu', s:black, s:white)
 
 call s:hi('Pmenu', s:black, s:white)
 call s:hi('PmenuSel')
