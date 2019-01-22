@@ -9,9 +9,9 @@ endif
 let g:colors_name = 'nomo'
 
 let s:lite  = ['#e2e2e2', 254]
-if(g:nomo_tint == 'green')
+if g:nomo_tint == 'green'
   let s:lite  = ['#85f762', 254]
-elseif(g:nomo_tint == 'red')
+elseif g:nomo_tint == 'red'
   let s:lite  = ['#d65151', 254]
 endif
 
