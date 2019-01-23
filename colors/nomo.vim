@@ -6,7 +6,6 @@ if exists('syntax_on')
    syntax reset
 endif
 
-set background=dark
 let g:colors_name = 'nomo'
 
 if !exists('g:nomo_tint') || g:nomo_tint == 'white'
@@ -140,3 +139,5 @@ let g:fzf_colors =
   \ 'marker':  ['fg', 'Keyword'],
   \ 'spinner': ['fg', 'Label'],
   \ 'header':  ['fg', 'Comment'] }
+
+set background=dark
