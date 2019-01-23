@@ -6,7 +6,6 @@ Why is it called *nomo*?
 * Because I was tired of looking for a proper monochrome colorscheme. No mo' searching.
 * It's a monochrome colorscheme and *nomo* is a spoonerism of *mono*.
 * *Alien* is an awesome movie and the spaceship in that movie is called *No*stro*mo*.
-* It looks, - and sounds cute.
 
 It has 5 tints: 
 * white (default)
