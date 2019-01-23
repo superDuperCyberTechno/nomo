@@ -1,7 +1,12 @@
 # nomo.vim
 A dark, no-nonsense colorscheme for Vim.
 
-It uses three colors: The light one, the darker one and the darkest one. No' mo'.
+Why is it called *nomo*?
+* Because it uses three colors: The light one, the darker one and the darkest one. No mo' colors.
+* Because I was tired of looking for a proper monochrome colorscheme. No mo' searching.
+* It's a monochrome colorscheme and *nomo* is a spoonerism of *mono*.
+* *Alien* is an awesome movie and the spaceship in that movie is called *No*stro*mo*.
+* It looks, - and sounds cute.
 
 It has 5 tints: 
 * white (default)
