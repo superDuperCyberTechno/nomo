@@ -55,7 +55,7 @@ endfunction
 " --- STYLING ------------------------------------------------------------
 
 call s:hi('Normal')
-call s:hi('NormalNC', s:semi)
+"call s:hi('NormalNC', s:semi)
 call s:hi('Cursor', s:dark, s:lite)
 call s:hi('ColorColumn')
 call s:hi('Search', s:dark, s:lite)
