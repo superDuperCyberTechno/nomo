@@ -53,6 +53,9 @@ function! s:hi(...)
 endfunction
 
 " --- STYLING ------------------------------------------------------------
+
+call s:hi('InactiveWindow', s:semi)
+
 call s:hi('Normal')
 call s:hi('Cursor', s:dark, s:lite)
 call s:hi('ColorColumn')
