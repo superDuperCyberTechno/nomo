@@ -52,9 +52,21 @@ function! s:hi(...)
     exec join(cmd, ' ')
 endfunction
 
-" --- STYLING ------------------------------------------------------------
-
 call s:hi('InactiveWindow', s:semi)
+call s:hi('ActiveWindow')
+
+" Call method on window enter
+augroup WindowManagement
+  autocmd!
+  autocmd WinEnter * call Handle_Win_Enter()
+augroup END
+
+" Change highlight group of active/inactive windows
+function! Handle_Win_Enter()
+  setlocal winhighlight=Normal:ActiveWindow,NormalNC:InactiveWindow
+endfunction
+
+" --- STYLING ------------------------------------------------------------
 
 call s:hi('Normal')
 call s:hi('Cursor', s:dark, s:lite)
