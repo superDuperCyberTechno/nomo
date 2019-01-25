@@ -43,7 +43,6 @@ call map(split(execute('hi'),'\n'),'execute("hi ".split(v:val)[0]." NONE")')
 " --- STYLING ------------------------------------------------------------
 
 call s:hi('Normal')
-"call s:hi('NormalNC', s:semi)
 call s:hi('Cursor', s:dark, s:lite)
 call s:hi('ColorColumn')
 call s:hi('Search', s:dark, s:lite)
@@ -65,6 +64,10 @@ call s:hi('Sneak', s:dark, s:lite)
 call s:hi('SneakScope', s:dark, s:lite)
 call s:hi('SneakLabel', s:dark, s:lite)
 call s:hi('SneakLabelMask', s:dark, s:dark)
+
+call s:hi('fzf1')
+call s:hi('fzf2')
+call s:hi('fzf3')
 
 call s:hi('Title', s:semi)
 call s:hi('TabLine', s:semi)
@@ -94,9 +97,9 @@ call s:hi("SignifySignChange")
 call s:hi("SignifySignChangeDelete")
 call s:hi("SignifySignDelete")
 
-call s:hi("htmlLink")
-call s:hi("htmlTitle")
-call s:hi("htmlH1")
+"call s:hi("htmlLink")
+"call s:hi("htmlTitle")
+"call s:hi("htmlH1")
 
 call s:hi('Statement')
 call s:hi('PreProc')
