@@ -81,10 +81,6 @@ call s:hi('SneakScope', s:dark, s:lite)
 call s:hi('SneakLabel', s:dark, s:lite)
 call s:hi('SneakLabelMask', s:dark, s:dark)
 
-call s:hi('fzf1')
-call s:hi('fzf2')
-call s:hi('fzf3')
-
 call s:hi('Title', s:semi)
 call s:hi('TabLine', s:semi)
 call s:hi('TabLineFill')
