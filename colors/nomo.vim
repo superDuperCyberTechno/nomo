@@ -52,7 +52,8 @@ function! s:hi(...)
     exec join(cmd, ' ')
 endfunction
 
-call map(split(execute('hi'),'\n'),'execute("hi ".split(v:val)[0]." NONE")')
+"call map(split(execute('hi'),'\n'),'execute("hi ".split(v:val)[0]." NONE")')
+call map(split(execute('hi'),'\n'),'call s:hi(split(v:val)[0])')
 
 " --- STYLING ------------------------------------------------------------
 
