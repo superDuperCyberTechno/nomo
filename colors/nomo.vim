@@ -52,6 +52,8 @@ function! s:hi(...)
     exec join(cmd, ' ')
 endfunction
 
+call map(split(execute('hi'),'\n'),'execute("hi ".split(v:val)[0]." NONE")')
+
 " --- STYLING ------------------------------------------------------------
 
 call s:hi('Normal')
