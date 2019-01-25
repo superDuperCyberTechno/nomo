@@ -97,9 +97,9 @@ call s:hi("SignifySignChange")
 call s:hi("SignifySignChangeDelete")
 call s:hi("SignifySignDelete")
 
-"call s:hi("htmlLink")
-"call s:hi("htmlTitle")
-"call s:hi("htmlH1")
+call s:hi("htmlLink")
+call s:hi("htmlTitle")
+call s:hi("htmlH1")
 
 call s:hi('Statement')
 call s:hi('PreProc')
