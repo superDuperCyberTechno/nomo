@@ -20,36 +20,21 @@ elseif g:nomo_tint == 'yellow'
   let s:lite  = ['#ffff70', 254]
 endif
 
-let s:dark  = ['#222222', 234]
 let s:semi  = ['#494949', 240]
-
-let s:default_fg = s:lite
-let s:default_bg = s:dark
-
-let s:default_lst = []
-let s:default_str = ''
+let s:dark  = ['#222222', 234]
 
 function! s:hi(...)
-    let group = a:1
-    let fg    = get(a:, 2, s:default_fg)
-    let bg    = get(a:, 3, s:default_bg)
+  let group = a:1
+  let fg    = get(a:, 2, s:lite)
+  let bg    = get(a:, 3, s:dark)
 
-    let cmd = ['hi', group]
-
-    if fg != s:default_lst
-        call add(cmd, 'guifg='.fg[0])
-        call add(cmd, 'ctermfg='.fg[1])
-    endif
-
-    if bg != s:default_lst
-        call add(cmd, 'guibg='.bg[0])
-        call add(cmd, 'ctermbg='.bg[1])
-    endif
-
-    call add(cmd, 'gui=NONE')
-    call add(cmd, 'cterm=NONE')
-
-    exec join(cmd, ' ')
+  exec "hi " . group . " guifg=" . fg[0]
+  exec "hi " . group . " ctermfg=" . fg[1]
+  
+  exec "hi " . group . " guibg=" . bg[0]
+  exec "hi " . group . " ctermbg=" . bg[1]
+  
+  exec "hi " . group . " gui=none cterm=none"
 endfunction
 
 call map(split(execute('hi'),'\n'),'execute("hi ".split(v:val)[0]." NONE")')
