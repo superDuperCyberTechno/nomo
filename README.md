@@ -1,6 +1,6 @@
 ![nomo.vim](https://raw.githubusercontent.com/superDuperCyberTechno/nomo.vim/master/header.png)
 
-A dark, no-nonsense colorscheme for Vim.
+A dark, no-nonsense, monochrome colorscheme for Vim. No underlines, bolds, italics or any other redundant rubbish.
 
 Why is it called *nomo*?
 * Because it uses three colors: The light one, the darker one and the darkest one. **No**thing **mo**re.
