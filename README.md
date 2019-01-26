@@ -1,4 +1,5 @@
-# nomo.vim
+![comploy](https://raw.githubusercontent.com/superDuperCyberTechno/nomo.vim/master/header.png)
+
 A dark, no-nonsense colorscheme for Vim.
 
 Why is it called *nomo*?
