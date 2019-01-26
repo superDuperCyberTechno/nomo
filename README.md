@@ -1,4 +1,4 @@
-![comploy](https://raw.githubusercontent.com/superDuperCyberTechno/nomo.vim/master/header.png)
+![nomo.vim](https://raw.githubusercontent.com/superDuperCyberTechno/nomo.vim/master/header.png)
 
 A dark, no-nonsense colorscheme for Vim.
 
