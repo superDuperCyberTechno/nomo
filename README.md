@@ -9,11 +9,11 @@ Why is it called *nomo*?
 * *Alien* is an awesome movie and the spaceship in that movie is called **No**stro**mo**
 
 It has 5 tints: 
-* white (default)
-* green
-* red
-* blue
-* yellow 
+* `white` (default)
+* `green`
+* `red`
+* `blue`
+* `yellow`
 
 Example: Add the following to your .vimrc to change the tint to green:
 `let g:nomo_tint='green'`
