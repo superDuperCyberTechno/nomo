@@ -114,7 +114,7 @@ call s:hi('Special')
 call s:hi('MatchParen', s:semi)
 
 let g:fzf_colors =
-\ { 'fg':      ['fg', 'CursorLine'],
+\ { 'fg':      ['fg', 'Normal'],
   \ 'bg':      ['bg', 'Normal'],
   \ 'hl':      ['fg', 'Comment'],
   \ 'fg+':     ['fg', 'CursorLine', 'CursorColumn', 'Normal'],
@@ -124,7 +124,7 @@ let g:fzf_colors =
   \ 'border':  ['fg', 'Ignore'],
   \ 'prompt':  ['fg', 'Conditional'],
   \ 'pointer': ['fg', 'Exception'],
-  \ 'marker':  ['fg', 'Keyword'],
+  \ 'marker':  ['fg', 'CursorLine'],
   \ 'spinner': ['fg', 'Label'],
   \ 'header':  ['fg', 'Comment'] }
 
