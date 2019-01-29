@@ -37,8 +37,7 @@ function! s:hi(...)
   exec "hi " . group . " gui=none cterm=none"
 endfunction
 
-"call map(split(execute('hi'),'\n'),'execute("hi ".split(v:val)[0]." NONE")')
-"call map(split(execute('hi'),'\n'),'call s:hi(split(v:val)[0])')
+call map(split(execute('hi'),'\n'),'execute("hi ".split(v:val)[0]." NONE")')
 
 " --- STYLING ------------------------------------------------------------
 
@@ -59,6 +58,8 @@ call s:hi('Search', s:lite, s:semi)
 call s:hi('SearchCurrent', s:dark, s:lite)
 call s:hi('CursorLineNr', s:lite, s:semi)
 call s:hi('CursorLine', s:lite, s:semi)
+call s:hi('TermCursor', s:dark, s:lite)
+call s:hi('TermCursorNC', s:dark, s:lite)
 
 call s:hi('Sneak', s:dark, s:lite)
 call s:hi('SneakScope', s:dark, s:lite)
