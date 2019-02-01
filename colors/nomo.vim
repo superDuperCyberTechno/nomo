@@ -11,7 +11,7 @@ let g:colors_name = 'nomo'
 if !exists('g:nomo_tint') || g:nomo_tint == 'gray'
   let s:lite  = ['#c6bfba', 248]
 elseif g:nomo_tint == 'green'
-  let s:lite  = ['#85f762', 40]
+  let s:lite  = ['#9fcc70', 40]
 elseif g:nomo_tint == 'red'
   let s:lite  = ['#d65151', 160]
 elseif g:nomo_tint == 'blue'
