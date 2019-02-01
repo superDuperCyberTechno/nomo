@@ -9,7 +9,7 @@ Why is it called *nomo*?
 * Because *Alien* is an awesome movie and the spaceship in that movie is called **No**stro**mo**.
 
 It has 5 tints: 
-* `white` (default)
+* `gray` (default)
 * `green`
 * `red`
 * `blue`
