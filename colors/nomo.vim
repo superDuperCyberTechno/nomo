@@ -21,7 +21,7 @@ elseif g:nomo_tint == 'yellow'
 endif
 
 let s:semi  = ['#494949', 240]
-let s:dark  = ['#222222', 234]
+let s:dark  = ['#141414', 234]
 
 function! s:hi(...)
   let group = a:1
