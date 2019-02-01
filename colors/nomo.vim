@@ -17,7 +17,7 @@ elseif g:nomo_tint == 'red'
 elseif g:nomo_tint == 'blue'
   let s:lite  = ['#60b7db', 45]
 elseif g:nomo_tint == 'yellow'
-  let s:lite  = ['#ffe270', 220]
+  let s:lite  = ['#d6bd5e', 220]
 endif
 
 let s:semi  = ['#494949', 240]
