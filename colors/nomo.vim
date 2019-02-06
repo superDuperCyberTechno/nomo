@@ -127,5 +127,22 @@ let g:fzf_colors =
   \ 'marker':  ['fg', 'CursorLine'],
   \ 'spinner': ['fg', 'Label'],
   \ 'header':  ['fg', 'Comment'] }
+  
+let g:terminal_color_0  = s:lite 
+let g:terminal_color_1  = s:lite
+let g:terminal_color_2  = s:lite
+let g:terminal_color_3  = s:lite
+let g:terminal_color_4  = s:lite
+let g:terminal_color_5  = s:lite
+let g:terminal_color_6  = s:lite
+let g:terminal_color_7  = s:lite
+let g:terminal_color_8  = s:lite
+let g:terminal_color_9  = s:lite
+let g:terminal_color_10 = s:lite
+let g:terminal_color_11 = s:lite
+let g:terminal_color_12 = s:lite
+let g:terminal_color_13 = s:lite
+let g:terminal_color_14 = s:lite
+let g:terminal_color_15 = s:lite
 
 set background=dark
