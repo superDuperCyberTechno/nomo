@@ -128,21 +128,21 @@ let g:fzf_colors =
   \ 'spinner': ['fg', 'Label'],
   \ 'header':  ['fg', 'Comment'] }
   
-let g:terminal_color_0  = '#ffffff'
-let g:terminal_color_1  = '#ffffff'
-let g:terminal_color_2  = '#ffffff'
-let g:terminal_color_3  = '#ffffff'
-let g:terminal_color_4  = '#ffffff'
-let g:terminal_color_5  = '#ffffff'
-let g:terminal_color_6  = '#ffffff'
-let g:terminal_color_7  = '#ffffff'
-let g:terminal_color_8  = '#ffffff'
-let g:terminal_color_9  = '#ffffff'
-let g:terminal_color_10 = '#ffffff'
-let g:terminal_color_11 = '#ffffff'
-let g:terminal_color_12 = '#ffffff'
-let g:terminal_color_13 = '#ffffff'
-let g:terminal_color_14 = '#ffffff'
-let g:terminal_color_15 = '#ffffff'
+let g:terminal_color_0  = s:lite[0]
+let g:terminal_color_1  = s:lite[0]
+let g:terminal_color_2  = s:lite[0]
+let g:terminal_color_3  = s:lite[0]
+let g:terminal_color_4  = s:lite[0]
+let g:terminal_color_5  = s:lite[0]
+let g:terminal_color_6  = s:lite[0]
+let g:terminal_color_7  = s:lite[0]
+let g:terminal_color_8  = s:lite[0]
+let g:terminal_color_9  = s:lite[0]
+let g:terminal_color_10 = s:lite[0]
+let g:terminal_color_11 = s:lite[0]
+let g:terminal_color_12 = s:lite[0]
+let g:terminal_color_13 = s:lite[0]
+let g:terminal_color_14 = s:lite[0]
+let g:terminal_color_15 = s:lite[0]
 
 set background=dark
