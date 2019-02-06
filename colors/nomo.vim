@@ -128,21 +128,21 @@ let g:fzf_colors =
   \ 'spinner': ['fg', 'Label'],
   \ 'header':  ['fg', 'Comment'] }
   
-call s:hi('g:terminal_color_0')
-call s:hi('g:terminal_color_1')
-call s:hi('g:terminal_color_2')
-call s:hi('g:terminal_color_3')
-call s:hi('g:terminal_color_4')
-call s:hi('g:terminal_color_5')
-call s:hi('g:terminal_color_6')
-call s:hi('g:terminal_color_7')
-call s:hi('g:terminal_color_8')
-call s:hi('g:terminal_color_9')
-call s:hi('g:terminal_color_10')
-call s:hi('g:terminal_color_11')
-call s:hi('g:terminal_color_12')
-call s:hi('g:terminal_color_13')
-call s:hi('g:terminal_color_14')
-call s:hi('g:terminal_color_15')
+let g:terminal_color_0  = '#ffffff'
+let g:terminal_color_1  = '#ffffff'
+let g:terminal_color_2  = '#ffffff'
+let g:terminal_color_3  = '#ffffff'
+let g:terminal_color_4  = '#ffffff'
+let g:terminal_color_5  = '#ffffff'
+let g:terminal_color_6  = '#ffffff'
+let g:terminal_color_7  = '#ffffff'
+let g:terminal_color_8  = '#ffffff'
+let g:terminal_color_9  = '#ffffff'
+let g:terminal_color_10 = '#ffffff'
+let g:terminal_color_11 = '#ffffff'
+let g:terminal_color_12 = '#ffffff'
+let g:terminal_color_13 = '#ffffff'
+let g:terminal_color_14 = '#ffffff'
+let g:terminal_color_15 = '#ffffff'
 
 set background=dark
