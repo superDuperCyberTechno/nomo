@@ -112,7 +112,7 @@ call s:hi('Type')
 call s:hi('Function')
 call s:hi('Identifier')
 call s:hi('Special')
-call s:hi('MatchParen', s:none, s:none)
+call s:hi('MatchParen', s:none, s:lite)
 
 let g:fzf_colors =
 \ { 'fg':      ['fg', 'Normal'],
