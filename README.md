@@ -9,7 +9,7 @@ To be pedantic, nomo.vim isn't 100% monochrome either. - At any point in time it
 * `blue`
 * `yellow`
 
-Example: Add the following to your .vimrc to change the tint to green:
+Example: Add the following to your .vimrc to change the main color to green:
 `let g:nomo_color='green'`
 
 **Please note: At this point in time, plugin support is very limited. However, all suggestions are welcome.**
