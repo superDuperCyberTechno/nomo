@@ -14,7 +14,7 @@ It has 5 main colors:
 Example: Add the following to your .vimrc to change the tint to green:
 `let g:nomo_color='green'`
 
-**Please note: At this point in time, plugin support is very limited. However, all suggestions are welcome.
+**Please note: At this point in time, plugin support is very limited. However, all suggestions are welcome.**
 
 Alright, so why is it called *nomo*?
 * Because it uses three colors: The light one, the darker one and the darkest one. **No**thing **mo**re.
