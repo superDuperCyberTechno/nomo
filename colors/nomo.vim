@@ -22,7 +22,7 @@ endif
 
 let s:semi  = ['#494949', 240]
 let s:dark  = ['#202020', 234]
-let s:none = 'NONE'
+let s:none =  ['NONE', 'NONE']
 
 function! s:hi(...)
   let group = a:1
