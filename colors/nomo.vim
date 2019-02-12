@@ -22,6 +22,7 @@ endif
 
 let s:semi  = ['#494949', 240]
 let s:dark  = ['#202020', 234]
+let s:none = 'NONE'
 
 function! s:hi(...)
   let group = a:1
@@ -111,7 +112,7 @@ call s:hi('Type')
 call s:hi('Function')
 call s:hi('Identifier')
 call s:hi('Special')
-call s:hi('MatchParen', 'none', 'none')
+call s:hi('MatchParen', s:none, s:none)
 
 let g:fzf_colors =
 \ { 'fg':      ['fg', 'Normal'],
