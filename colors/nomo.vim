@@ -103,7 +103,7 @@ call s:hi("htmlLink")
 call s:hi("htmlBold")
 call s:hi("htmlBoldUnderline")
 call s:hi("htmlBoldUnderlineItalic")
-call s:hi("htmlStrike")/jjjjiujk
+call s:hi("htmlStrike")
 call s:hi("htmlTitle")
 call s:hi("htmlH1")
 
