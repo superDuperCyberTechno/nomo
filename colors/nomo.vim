@@ -100,6 +100,10 @@ call s:hi("SignifySignChangeDelete")
 call s:hi("SignifySignDelete")
 
 call s:hi("htmlLink")
+call s:hi("htmlBold")
+call s:hi("htmlBoldUnderline")
+call s:hi("htmlBoldUnderlineItalic")
+call s:hi("htmlStrike")/jjjjiujk
 call s:hi("htmlTitle")
 call s:hi("htmlH1")
 
