@@ -83,8 +83,8 @@ call s:hi('VertSplit', s:semi)
 call s:hi('LineNr', s:semi)
 call s:hi('WildMenu', s:dark, s:lite)
 
-call s:hi('Pmenu', s:dark, s:lite)
-call s:hi('PmenuSel', s:lite, s:semi)
+call s:hi('Pmenu', s:lite, s:semi)
+call s:hi('PmenuSel', s:dark, s:lite)
 
 call s:hi('ALEErrorSign')
 call s:hi('ALEWarningSign')
