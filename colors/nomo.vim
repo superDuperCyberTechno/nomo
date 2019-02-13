@@ -84,7 +84,7 @@ call s:hi('LineNr', s:semi)
 call s:hi('WildMenu', s:dark, s:lite)
 
 call s:hi('Pmenu', s:dark, s:lite)
-call s:hi('PmenuSel', s:semi, s:dark)
+call s:hi('PmenuSel', s:semi, s:lite)
 
 call s:hi('ALEErrorSign')
 call s:hi('ALEWarningSign')
