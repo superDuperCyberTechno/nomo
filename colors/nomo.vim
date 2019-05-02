@@ -135,14 +135,14 @@ let g:fzf_colors =
   \ 'spinner': ['fg', 'Label'],
   \ 'header':  ['fg', 'Comment'] }
   
-let g:terminal_color_0  = s:lite[0] "emphasis fg
+let g:terminal_color_0  = s:dark[0] "emphasis fg
 let g:terminal_color_1  = s:lite[0] "warning bg
 let g:terminal_color_2  = s:lite[0]
 let g:terminal_color_3  = s:lite[0]
 let g:terminal_color_4  = s:lite[0]
 let g:terminal_color_5  = s:lite[0]
 let g:terminal_color_6  = s:semi[0] "emphasis bg
-let g:terminal_color_7  = s:dark[0] "warning fg
+let g:terminal_color_7  = s:lite[0] "warning fg
 let g:terminal_color_8  = s:dark[0] "notice bg?
 let g:terminal_color_9  = s:lite[0]
 let g:terminal_color_10 = s:lite[0]
