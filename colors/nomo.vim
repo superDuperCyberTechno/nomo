@@ -101,6 +101,7 @@ call s:hi("SignifySignDelete")
 
 call s:hi("htmlLink")
 call s:hi("htmlBold")
+call s:hi("htmlBoldItalic")
 call s:hi("htmlBoldUnderline")
 call s:hi("htmlUnderlineItalic")
 call s:hi("htmlUnderline")
