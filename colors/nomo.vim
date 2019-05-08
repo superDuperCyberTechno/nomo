@@ -20,7 +20,7 @@ elseif g:nomo_color == 'yellow'
   let s:lite  = ['#d6bd5e', 220]
 endif
 
-let s:semi  = ['#404040', 240]
+let s:semi  = ['#424242', 240]
 let s:dark  = ['#202020', 234]
 let s:none =  ['NONE', 'NONE']
 
