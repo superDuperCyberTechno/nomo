@@ -3,21 +3,27 @@
 
 hi clear
 if exists('syntax_on')
-   syntax reset
+    syntax reset
 endif
 
 let g:colors_name = 'nomo'
 
+if exists('g:nomo_color') && g:nomo_color == 'random'
+    let nomo_colors = ["white", "green", "red", "blue", "yellow"]
+    let random_index = strftime("%S") % 5
+    let g:nomo_color = nomo_colors[random_index]
+endif
+
 if !exists('g:nomo_color') || g:nomo_color == 'white'
-  let s:lite  = ['#c6bfba', 248]
+    let s:lite  = ['#c6bfba', 248]
 elseif g:nomo_color == 'green'
-  let s:lite  = ['#9fcc70', 40]
+    let s:lite  = ['#9fcc70', 40]
 elseif g:nomo_color == 'red'
-  let s:lite  = ['#bf5454', 160]
+    let s:lite  = ['#bf5454', 160]
 elseif g:nomo_color == 'blue'
-  let s:lite  = ['#60b7db', 45]
+    let s:lite  = ['#60b7db', 45]
 elseif g:nomo_color == 'yellow'
-  let s:lite  = ['#d6bd5e', 220]
+    let s:lite  = ['#d6bd5e', 220]
 endif
 
 let s:semi  = ['#424242', 240]
@@ -25,17 +31,17 @@ let s:dark  = ['#202020', 234]
 let s:none =  ['NONE', 'NONE']
 
 function! s:hi(...)
-  let group = a:1
-  let fg    = get(a:, 2, s:lite)
-  let bg    = get(a:, 3, s:dark)
+    let group = a:1
+    let fg    = get(a:, 2, s:lite)
+    let bg    = get(a:, 3, s:dark)
 
-  exec "hi " . group . " guifg=" . fg[0]
-  exec "hi " . group . " ctermfg=" . fg[1]
-  
-  exec "hi " . group . " guibg=" . bg[0]
-  exec "hi " . group . " ctermbg=" . bg[1]
-  
-  exec "hi " . group . " gui=none cterm=none"
+    exec "hi " . group . " guifg=" . fg[0]
+    exec "hi " . group . " ctermfg=" . fg[1]
+
+    exec "hi " . group . " guibg=" . bg[0]
+    exec "hi " . group . " ctermbg=" . bg[1]
+
+    exec "hi " . group . " gui=none cterm=none"
 endfunction
 
 call map(split(execute('hi'),'\n'),'execute("hi ".split(v:val)[0]." NONE")')
@@ -122,20 +128,20 @@ call s:hi('Special')
 call s:hi('MatchParen', s:lite, s:semi)
 
 let g:fzf_colors =
-\ { 'fg':      ['fg', 'Normal'],
-  \ 'bg':      ['bg', 'Normal'],
-  \ 'hl':      ['fg', 'Search'],
-  \ 'fg+':     ['fg', 'CursorLine'],
-  \ 'bg+':     ['bg', 'Normal'],
-  \ 'hl+':     ['fg', 'Statement'],
-  \ 'info':    ['fg', 'PreProc'],
-  \ 'border':  ['fg', 'Ignore'],
-  \ 'prompt':  ['fg', 'Conditional'],
-  \ 'pointer': ['fg', 'Exception'],
-  \ 'marker':  ['fg', 'CursorLine'],
-  \ 'spinner': ['fg', 'Label'],
-  \ 'header':  ['fg', 'Comment'] }
-  
+            \ { 'fg':      ['fg', 'Normal'],
+            \ 'bg':      ['bg', 'Normal'],
+            \ 'hl':      ['fg', 'Search'],
+            \ 'fg+':     ['fg', 'CursorLine'],
+            \ 'bg+':     ['bg', 'Normal'],
+            \ 'hl+':     ['fg', 'Statement'],
+            \ 'info':    ['fg', 'PreProc'],
+            \ 'border':  ['fg', 'Ignore'],
+            \ 'prompt':  ['fg', 'Conditional'],
+            \ 'pointer': ['fg', 'Exception'],
+            \ 'marker':  ['fg', 'CursorLine'],
+            \ 'spinner': ['fg', 'Label'],
+            \ 'header':  ['fg', 'Comment'] }
+
 let g:terminal_color_0  = s:dark[0] "emphasis fg
 let g:terminal_color_1  = s:dark[0] "warning bg
 let g:terminal_color_2  = s:lite[0]
