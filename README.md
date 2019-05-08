@@ -9,6 +9,7 @@ To be pedantic, nomo.vim isn't 100% monochrome either. - At any point in time it
 * `red`
 * `blue`
 * `yellow`
+* `random` (any one of the above)
 
 Example: Add the following to your .vimrc to change the main color to green:
 `let g:nomo_color='green'`
