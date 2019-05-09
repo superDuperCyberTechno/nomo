@@ -64,7 +64,7 @@ call s:hi('Todo', s:dark, s:lite)
 call s:hi('Search', s:lite, s:semi)
 call s:hi('SearchCurrent', s:dark, s:lite)
 call s:hi('CursorLineNr', s:lite, s:semi)
-call s:hi('CursorLine', s:lite, s:semi)
+"call s:hi('CursorLine', s:lite, s:semi)
 call s:hi('TermCursor', s:dark, s:lite)
 call s:hi('TermCursorNC', s:dark, s:semi)
 
