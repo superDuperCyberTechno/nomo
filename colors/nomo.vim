@@ -63,19 +63,19 @@ call s:hi('Underlined')
 call s:hi('Todo', s:dark, s:lite)
 call s:hi('Search', s:lite, s:semi)
 call s:hi('SearchCurrent', s:dark, s:lite)
-call s:hi('CursorLineNr', s:lite, s:semi)
-"call s:hi('CursorLine', s:lite, s:semi)
+" call s:hi('CursorLineNr', s:lite, s:semi)
+" call s:hi('CursorLine', s:dark, s:lite)
 call s:hi('TermCursor', s:dark, s:lite)
 call s:hi('TermCursorNC', s:dark, s:semi)
+
+call s:hi('fzf1')
+call s:hi('fzf2')
+call s:hi('fzf3')
 
 call s:hi('Sneak', s:dark, s:lite)
 call s:hi('SneakScope', s:dark, s:lite)
 call s:hi('SneakLabel', s:dark, s:lite)
 call s:hi('SneakLabelMask', s:dark, s:dark)
-
-call s:hi('fzf1')
-call s:hi('fzf2')
-call s:hi('fzf3')
 
 call s:hi('Title', s:semi)
 call s:hi('TabLine', s:semi)
@@ -127,20 +127,20 @@ call s:hi('Identifier')
 call s:hi('Special')
 call s:hi('MatchParen', s:lite, s:semi)
 
-let g:fzf_colors =
-            \ { 'fg':      ['fg', 'Normal'],
+let g:fzf_colors = {
+            \ 'fg':      ['fg', 'Comment'],
             \ 'bg':      ['bg', 'Normal'],
-            \ 'hl':      ['fg', 'Search'],
-            \ 'fg+':     ['fg', 'CursorLine'],
+            \ 'hl':      ['fg', 'Normal'],
+            \ 'fg+':     ['fg', 'Normal'],
             \ 'bg+':     ['bg', 'Normal'],
-            \ 'hl+':     ['fg', 'Statement'],
-            \ 'info':    ['fg', 'PreProc'],
-            \ 'border':  ['fg', 'Ignore'],
-            \ 'prompt':  ['fg', 'Conditional'],
-            \ 'pointer': ['fg', 'Exception'],
-            \ 'marker':  ['fg', 'CursorLine'],
-            \ 'spinner': ['fg', 'Label'],
-            \ 'header':  ['fg', 'Comment'] }
+            \ 'hl+':     ['fg', 'Normal'],
+            \ 'info':    ['fg', 'Normal'],
+            \ 'border':  ['fg', 'Normal'],
+            \ 'prompt':  ['fg', 'Normal'],
+            \ 'pointer': ['fg', 'Normal'],
+            \ 'marker':  ['fg', 'Normal'],
+            \ 'spinner': ['fg', 'Normal'],
+            \ 'header':  ['fg', 'Normal'] }
 
 let g:terminal_color_0  = s:dark[0] "emphasis fg
 let g:terminal_color_1  = s:dark[0] "warning bg
