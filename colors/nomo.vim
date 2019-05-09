@@ -17,9 +17,9 @@ endif
 if !exists('g:nomo_color') || g:nomo_color == 'white'
     let s:lite  = ['#c6bfba', 248]
 elseif g:nomo_color == 'green'
-    let s:lite  = ['#9fcc70', 40]
+    let s:lite  = ['#9cd363', 40]
 elseif g:nomo_color == 'red'
-    let s:lite  = ['#bf5454', 160]
+    let s:lite  = ['#e56262', 160]
 elseif g:nomo_color == 'blue'
     let s:lite  = ['#60b7db', 45]
 elseif g:nomo_color == 'yellow'
