@@ -6,14 +6,17 @@ if exists('syntax_on')
     syntax reset
 endif
 
+"hi, my name is:
 let g:colors_name = 'nomo'
 
+" this is the random number generator. turns out it's not random at all. get over it.
 if exists('g:nomo_color') && g:nomo_color == 'random'
     let nomo_colors = ["white", "green", "red", "blue", "yellow"]
     let random_index = strftime("%S") % 5
     let g:nomo_color = nomo_colors[random_index]
 endif
 
+" check what color the user selected and let's get paintin' boys
 if !exists('g:nomo_color') || g:nomo_color == 'white'
     let s:lite  = ['#c6bfba', 248]
 elseif g:nomo_color == 'green'
@@ -26,10 +29,12 @@ elseif g:nomo_color == 'yellow'
     let s:lite  = ['#d6bd5e', 220]
 endif
 
+" static colors, easy and clean
 let s:semi  = ['#424242', 240]
 let s:dark  = ['#202020', 234]
 let s:none =  ['NONE', 'NONE']
 
+" the painting function to make it less insane to color shit
 function! s:hi(...)
     let group = a:1
     let fg    = get(a:, 2, s:lite)
@@ -127,6 +132,7 @@ call s:hi('Identifier')
 call s:hi('Special')
 call s:hi('MatchParen', s:lite, s:semi)
 
+" fzf support because that plugin is one of the good guys
 let g:fzf_colors = {
             \ 'fg':      ['fg', 'Comment'],
             \ 'bg':      ['bg', 'Normal'],
@@ -142,6 +148,7 @@ let g:fzf_colors = {
             \ 'spinner': ['fg', 'Normal'],
             \ 'header':  ['fg', 'Normal'] }
 
+" terminal color customization. this shit is a pain in the fucking ass to get right so it's a work in progress
 let g:terminal_color_0  = s:dark[0] "emphasis fg
 let g:terminal_color_1  = s:dark[0] "warning bg
 let g:terminal_color_2  = s:lite[0]
