@@ -153,7 +153,7 @@ let g:fzf_colors = {
 
 " terminal color customization. this shit is a pain in the fucking ass to get right so it's a work in progress
 let g:terminal_color_0  = s:dark[0] "emphasis fg
-let g:terminal_color_1  = s:dark[0] "warning bg
+let g:terminal_color_1  = s:semi[0] "warning bg
 let g:terminal_color_2  = s:lite[0]
 let g:terminal_color_3  = s:lite[0]
 let g:terminal_color_4  = s:lite[0]
