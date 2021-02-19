@@ -126,7 +126,7 @@ call s:hi("htmlH1")
 
 call s:hi('Statement')
 call s:hi('PreProc')
-call s:hi('String', s:semi)
+call s:hi('String')
 call s:hi('Comment', s:semi)
 call s:hi('Constant')
 call s:hi('Type')
