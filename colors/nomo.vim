@@ -31,7 +31,7 @@ endif
 
 " static colors, easy and clean
 let s:semi  = ['#424242', 240]
-let s:dark  = ['#202020', 234]
+let s:dark  = ['#303030', 236]
 let s:none =  ['NONE', 'NONE']
 
 " the painting function to make it less insane to color shit
