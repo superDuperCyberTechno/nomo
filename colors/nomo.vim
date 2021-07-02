@@ -136,6 +136,8 @@ call s:hi('Special')
 call s:hi('MatchParen', s:lite, s:semi)
 
 call s:hi('LspDiagnosticsDefaultWarning', s:dark, s:semi)
+call s:hi('LspDiagnosticsDefaultError', s:dark, s:semi)
+
 
 " fzf support because that plugin is one of the good guys
 let g:fzf_colors = {
