@@ -135,8 +135,8 @@ call s:hi('Identifier')
 call s:hi('Special')
 call s:hi('MatchParen', s:lite, s:semi)
 
-call s:hi('LspDiagnosticsDefaultWarning', s:dark, s:semi)
-call s:hi('LspDiagnosticsDefaultError', s:dark, s:semi)
+call s:hi('LspDiagnosticsDefaultWarning', s:semi, s:dark)
+call s:hi('LspDiagnosticsDefaultError', s:semi, s:dark)
 
 
 " fzf support because that plugin is one of the good guys
