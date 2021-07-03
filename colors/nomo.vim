@@ -76,8 +76,8 @@ call s:hi('fzf2')
 call s:hi('fzf3')
 
 call s:hi('GitGutterAdd', s:semi)
-call s:hi('GitGutterChange' s:semi)
-call s:hi('GitGutterDelete' s:semi)
+call s:hi('GitGutterChange', s:semi)
+call s:hi('GitGutterDelete', s:semi)
 
 call s:hi('Sneak', s:dark, s:lite)
 call s:hi('SneakScope', s:dark, s:lite)
