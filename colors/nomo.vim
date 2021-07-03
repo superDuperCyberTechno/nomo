@@ -94,6 +94,7 @@ call s:hi('WildMenu', s:dark, s:lite)
 
 call s:hi('Pmenu', s:lite, s:semi)
 call s:hi('PmenuSel', s:dark, s:lite)
+call s:hi('Title')
 
 call s:hi('ALEErrorSignLineNr', s:none, s:none)
 call s:hi('ALEWarningLineNr', s:none, s:none)
