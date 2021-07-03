@@ -75,6 +75,10 @@ call s:hi('fzf1')
 call s:hi('fzf2')
 call s:hi('fzf3')
 
+call s:hi('GitGutterAdd', s:semi)
+call s:hi('GitGutterChange' s:semi)
+call s:hi('GitGutterDelete' s:semi)
+
 call s:hi('Sneak', s:dark, s:lite)
 call s:hi('SneakScope', s:dark, s:lite)
 call s:hi('SneakLabel', s:dark, s:lite)
@@ -94,7 +98,6 @@ call s:hi('WildMenu', s:dark, s:lite)
 
 call s:hi('Pmenu', s:lite, s:semi)
 call s:hi('PmenuSel', s:dark, s:lite)
-call s:hi('Title')
 
 call s:hi('ALEErrorSignLineNr', s:none, s:none)
 call s:hi('ALEWarningLineNr', s:none, s:none)
