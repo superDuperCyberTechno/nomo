@@ -30,7 +30,8 @@ elseif g:nomo_color == 'yellow'
 endif
 
 " static colors, easy and clean
-let s:semi  = ['#4e4e4e', 239]
+" let s:semi  = ['#4e4e4e', 239]
+let s:semi  = ['#666666', 239]
 let s:dark  = ['#080808', 232]
 let s:none =  ['NONE', 'NONE']
 
@@ -138,13 +139,6 @@ call s:hi('Function')
 call s:hi('Identifier')
 call s:hi('Special')
 call s:hi('MatchParen', s:lite, s:semi)
-
-call s:hi('diffAdded')
-call s:hi('diffChanged')
-call s:hi('diffRemoved')
-call s:hi('SpecialKey')
-call s:hi('Title')
-
 
 call s:hi('LspDiagnosticsDefaultWarning', s:semi, s:dark)
 call s:hi('LspDiagnosticsDefaultError', s:semi, s:dark)
