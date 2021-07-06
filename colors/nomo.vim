@@ -142,7 +142,7 @@ call s:hi('MatchParen', s:lite, s:semi)
 call s:hi('diffAdded')
 call s:hi('diffChanged')
 call s:hi('diffRemoved')
-
+call s:hi('SpecialKey')
 
 
 call s:hi('LspDiagnosticsDefaultWarning', s:semi, s:dark)
