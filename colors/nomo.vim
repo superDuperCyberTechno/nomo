@@ -39,7 +39,8 @@ let s:none =  ['NONE', 'NONE']
 function! s:hi(...)
     let group = a:1
     let fg    = get(a:, 2, s:lite)
-    let bg    = get(a:, 3, s:dark)
+    " let bg    = get(a:, 3, s:dark)
+    let bg    = get(a:, 3, s:none)
 
     exec "hi " . group . " guifg=" . fg[0]
     exec "hi " . group . " ctermfg=" . fg[1]
