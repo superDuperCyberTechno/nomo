@@ -72,6 +72,7 @@ call s:hi('CursorLineNr', s:lite, s:semi)
 call s:hi('CursorLine', s:lite, s:semi)
 call s:hi('TermCursor', s:dark, s:lite)
 call s:hi('TermCursorNC', s:dark, s:semi)
+call s:hi('EndOfBuffer', s:dark)
 
 call s:hi('fzf1')
 call s:hi('fzf2')
